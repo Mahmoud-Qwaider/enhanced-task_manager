@@ -30,16 +30,6 @@ All data is stored in a local SQLite database with full **foreign-key enforcemen
 
 ---
 
-## How I Built This
-
-1. Designed the database schema (5 tables with FK relationships)
-2. Wrote pseudocode for each CRUD operation
-3. Implemented the database layer in `sql.py`
-4. Built the CLI interface in `main.py`
-5. Fixed foreign-key enforcement bug in `get_connection()`
-6. Added error handling and input validation
-7. Tested all 21 menu options manually
-
 ## Database Schema
 
 Five tables with proper relationships:
@@ -68,6 +58,18 @@ The database (`todo_list.db`) is created automatically on first run.
 ---
 
 ## Project Structure
+
+---
+
+## How I Built This
+
+1. Designed the database schema (5 tables with FK relationships)
+2. Wrote pseudocode for each CRUD operation
+3. Implemented the database layer in `sql.py`
+4. Built the CLI interface in `main.py`
+5. Fixed foreign-key enforcement bug in `get_connection()`
+6. Added error handling and input validation
+7. Tested all 21 menu options manually
 
 ---
 
